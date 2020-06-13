@@ -6,6 +6,9 @@
 This is cool event app where event can be created, booked, cancel booking as well as User authentication.
 
   
+[Live Demo](https://event-app2.herokuapp.com/)
+
+![Project Image](gif.gif)
 
 ## Getting Started
 
@@ -46,6 +49,12 @@ yarn client
 ```
   
 
+##### *Change the GraphQL Uri*
+
+1) open the dirctory `client/src/helper/sender-hel.js` and change there `url: '/graphql` to `url: 'localhost:8000/graphql`
+2) open the `server.js` file the uncomment the `graphiql: true`
+
+
   
 
 ## Running
@@ -79,7 +88,7 @@ You can deploy this script wherever you like, but on the nodejs server only
 *  [ExpressJs]([https://expressjs.com/](https://expressjs.com/)) - For the Back End
 *  [GraphQL]([https://graphql.org/](https://graphql.org/)) - For the Efficient DB request
 * [Axios]([https://github.com/axios/axios](https://github.com/axios/axios)) - used to connect with endpoint (API)
-
+*[JWT] - used to encrypt the password
  
 
 ## Acknowledgments
