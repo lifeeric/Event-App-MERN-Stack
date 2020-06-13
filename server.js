@@ -21,7 +21,7 @@ app.use(Auth);
 app.use('/graphql', expressGraphql({
     schema: graphqlSchema,
     rootValue: graphqlResolver,
-    graphiql: true
+    // graphiql: true
 }));
 
 
