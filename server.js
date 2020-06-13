@@ -40,7 +40,7 @@ if( process.env.NODE_ENV === 'production' )
 }
 
 // DB connection
-const uri = "mongodb://localhost:27017/max2"
+const uri = process.env.MONGODB_URI
 
 mongoose.connect(uri, 
     { useNewUrlParser: true, useUnifiedTopology: true })
