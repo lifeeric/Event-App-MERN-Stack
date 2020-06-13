@@ -1,0 +1,27 @@
+.bookings {
+    width: 600px;
+    max-width: 90%;
+    margin: 30px auto;
+    text-align: center;
+
+    &__event {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #2159BD;
+        padding: 5px 14px;
+        margin: 10px 0;
+        // F1A9A4
+    }
+
+    &__event--title {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    &__event--postby {
+        color: #7d7d7d;
+        line-height: 0px;
+        font-size: 12px;
+    }
+}

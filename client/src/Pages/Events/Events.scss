@@ -1,0 +1,25 @@
+.events {
+
+    width: 600px;
+    max-width: 95%;
+    margin: 10px auto;
+    text-align: center;
+
+    &__list {
+        margin: 40px 0;
+    }
+
+}
+
+
+// Media Query
+
+@media (max-width: 490px) {
+
+    .events {
+
+        &__create {
+            width: 100%;
+        }
+    }
+}

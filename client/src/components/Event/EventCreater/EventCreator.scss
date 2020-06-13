@@ -1,0 +1,13 @@
+.events {    // Creating new event
+    &__create {
+        width: 350px;
+        border: 1px solid #2159BD;
+        margin: 30px auto 0;
+        padding: 5px 0 15px;
+        color: rgb(36, 32, 31);
+    }
+
+    &__create--title {
+        font-size: 24px;
+    }
+}

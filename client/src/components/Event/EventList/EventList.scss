@@ -1,0 +1,24 @@
+// Events List
+
+.events{
+    &__list-item {
+        border: 1px solid #F1A9A4;
+        text-align: left;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    &__list-item h1 {
+        font-size: 20px;
+        color: #2159BD;
+    }
+
+    &__list--poster {
+        font-size: 10px;
+        color: #7d7d7d;
+        line-height: 5px;
+    }
+}

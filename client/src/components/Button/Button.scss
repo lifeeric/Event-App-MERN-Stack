@@ -1,0 +1,32 @@
+.button {
+    background-color: #2159BD;
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
+    outline: none;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    border: 1px solid transparent;
+
+    &--sec {
+        background: transparent;
+        color: #2159BD;
+        display: block;
+        margin: 14px auto 0;
+    }
+
+    &--small {
+        font-size: 11px !important;
+    }
+
+    &--secondary-color {
+        background: #F1A9A4;
+    }
+
+    &:hover,
+    &:active {
+        background-color: #fff;
+        color: #2159BD;
+        border: 1px solid #2159BD;
+    }
+}

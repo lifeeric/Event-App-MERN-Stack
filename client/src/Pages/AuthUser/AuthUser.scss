@@ -1,0 +1,71 @@
+.container {
+    width: 400px;
+    max-width: 80%;
+    margin: 70px auto;
+    overflow: hidden;
+    text-align: center;
+
+    &__form {
+        border: 1px solid #2159BD;
+        padding: 40px 0 15px;
+        box-shadow: 1px 2px 5px #ccc;
+
+        &--success {
+            color: #00d836
+        }
+
+        &--error {
+            color: red;
+        }
+    }
+
+    .form-control  {
+
+        margin-bottom: 15px;
+        color: rgba(5, 5, 5, 0.938);
+
+        & input, & label
+        {
+            width: 80%;
+            text-align: left;
+            padding: 8px;
+            box-sizing: border-box;
+            display: block;
+            margin: auto;
+        }
+
+    }
+
+    .form-control label {
+        padding: 10px 0!important;
+    }
+
+    .form-control .error {
+        border: 2px solid red;
+        transition: border 0.5s;
+        animation: moving 0.5s;
+        box-shadow: 2px 5px 10px rgba(216, 23, 23, 0.2);
+    }
+
+}
+
+@keyframes moving {
+    0% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+
+// Media Query
+@media (max-width: 490px) {
+    .container {
+        max-width: 100% !important; 
+        margin: 4px 0 0;
+    }   
+}

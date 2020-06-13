@@ -1,0 +1,34 @@
+.form {
+    width: 90%;
+    margin: 15px auto;
+    text-align: left;
+
+
+    &__control {
+        margin-bottom: 20px;
+    }
+
+    &__control input,
+    &__control label,
+    &__control textarea {
+        width: 100%;
+        padding: 9px;
+        display: block;
+        box-sizing: border-box;
+        border:  2px solid #2159BD;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__control label {
+        margin-bottom: 5px;
+        padding: 0;
+        border: none;
+        color: rgb(32, 30, 30);
+    }
+
+    &__control textarea {
+        resize: vertical;
+    }
+}
